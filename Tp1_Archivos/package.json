@@ -1,0 +1,12 @@
+{
+  "name": "tp1_archivos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node ./tests.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
