@@ -12,16 +12,7 @@ const SE_MANTIENE_REGISTRO = "se mantiene el registro original sin cambios";
  * @param {string[]} claves las claves por las que quiero ordenar, por orden de importancia
  */
 function ordenar(coleccion, claves) {
-   
-//     for (let index = 0; index < claves.length; index++) {
-//         const element = claves[index];
-      
-//         // coleccion.sort(function(a, b) {
-//         //     var x = a[element]; var y = b[element];
-//         //     return ((x < y) ? -1 : ((x > y) ? 1 : 0));
-//         // });
-//     }
-//    return coleccion;
+ 
 return coleccion.sort(sortByMultipleKey(claves));
 }
 function sortByMultipleKey(claves) {
